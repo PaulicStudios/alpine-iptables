@@ -2,7 +2,7 @@ FROM alpine:latest
 
 LABEL org.opencontainers.image.title="alpine-iptables" \
       org.opencontainers.image.description="Minimal Alpine image with iptables and ip6tables" \
-      org.opencontainers.image.source="https://github.com/paulicstudios/alpine-iptables"
+      org.opencontainers.image.source="https://github.com/PaulicStudios/alpine-iptables"
 
 # Install iptables (nft userspace by default in Alpine) and common tools
 RUN --mount=type=cache,target=/var/cache/apk \
